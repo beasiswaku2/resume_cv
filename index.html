@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Ribut Nurdiansyah | PPIC, Warehouse & Logistik Manager</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            color: #333333;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Custom Theme Colors matching CV Design.jfif */
+        .bg-sidebar {
+            background-color: #2D3136;
+        }
+        .bg-accent-yellow {
+            background-color: #F3A723;
+        }
+        .border-accent-yellow {
+            border-color: #F3A723;
+        }
+        .text-accent-yellow {
+            color: #F3A723;
+        }
+
+        /* Top Yellow Background Arch for Sidebar Profile */
+        .profile-arch-bg {
+            background-color: #F3A723;
+            border-bottom-left-radius: 50% 30px;
+            border-bottom-right-radius: 50% 30px;
+        }
+
+        /* Section Title Capsule Badge (Right Column) */
+        .section-pill-right {
+            display: inline-flex;
+            align-items: center;
+            border: 2px solid #F3A723;
+            border-radius: 9999px;
+            padding: 4px 20px 4px 6px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+        }
+
+        .section-pill-right .icon-circle {
+            background-color: #F3A723;
+            color: #ffffff;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 14px;
+        }
+
+        /* Sidebar Section Capsule Badge */
+        .section-pill-left {
+            display: inline-flex;
+            align-items: center;
+            border: 1.5px solid #F3A723;
+            border-radius: 9999px;
+            padding: 3px 16px 3px 4px;
+            background-color: transparent;
+            color: #ffffff;
+        }
+
+        .section-pill-left .icon-circle-left {
+            background-color: #F3A723;
+            color: #2D3136;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+
+        /* Timeline styling */
+        .timeline-line {
+            position: absolute;
+            left: 7px;
+            top: 24px;
+            bottom: 0;
+            width: 2px;
+            background-color: #F3A723;
+        }
+
+        .timeline-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #F3A723;
+            border: 3px solid #2D3136;
+            z-index: 10;
+        }
+
+        .timeline-dot-right {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #F3A723;
+            border: 2px solid #ffffff;
+            z-index: 10;
+            box-shadow: 0 0 0 2px #F3A723;
+        }
+
+        /* Print Settings */
+        @media print {
+            body {
+                background-color: #ffffff !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .cv-container {
+                box-shadow: none !important;
+                max-width: 100% !important;
+                width: 100% !important;
+                margin: 0 !important;
+                border-radius: 0 !important;
+            }
+            .page-break-inside-avoid {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="py-6 px-2 sm:px-4 md:py-10">
+
+    <!-- Action Toolbar (Hidden during Print) -->
+    <div class="no-print max-w-5xl mx-auto mb-6 bg-white p-4 rounded-xl shadow-md flex flex-wrap items-center justify-between gap-4 border-l-4 border-amber-500">
+        <div>
+            <h2 class="font-bold text-gray-800 text-lg">Curriculum Vitae — Ribut Nurdiansyah</h2>
+        </div>
+    </div>
+
+    <!-- MAIN CV CONTAINER -->
+    <div class="cv-container max-w-5xl mx-auto bg-white shadow-2xl rounded-2xl overflow-hidden min-h-[1100px] flex flex-col md:flex-row border border-gray-200">
+
+        <!-- ================= LEFT SIDEBAR ================= -->
+        <aside class="w-full md:w-[36%] bg-sidebar text-white flex flex-col justify-between shrink-0 relative pb-8">
+            <div>
+                <!-- Top Arch Yellow Header with Profile Picture -->
+                <div class="profile-arch-bg pt-8 pb-12 px-6 text-center relative mb-12">
+                    <div class="relative w-40 h-40 mx-auto -mb-20">
+                        <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-xl bg-gray-800 mx-auto relative z-10">
+                            <img src="Ribut.jpeg" 
+                                 alt="Ribut Nurdiansyah" 
+                                 class="w-full h-full object-cover object-center"
+                                 onerror="this.onerror=null; this.src='https://placehold.co/400x400/2d3136/f39c12?text=Ribut+N';">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-6 space-y-8 mt-12">
+
+                    <!-- CONTACT ME -->
+                    <div class="space-y-4">
+                        <div class="section-pill-left">
+                            <span class="icon-circle-left"><i class="fa-solid fa-user"></i></span>
+                            <span class="font-bold text-xs tracking-wider uppercase">CONTACT ME</span>
+                        </div>
+                        
+                        <div class="space-y-3 text-xs pl-1">
+                            <div class="flex items-center gap-3 text-gray-200">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-accent-yellow flex items-center justify-center shrink-0 border border-amber-500/40">
+                                    <i class="fa-solid fa-phone text-xs"></i>
+                                </div>
+                                <span class="font-medium">+62 877-8852-6410</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 text-gray-200">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-accent-yellow flex items-center justify-center shrink-0 border border-amber-500/40">
+                                    <i class="fa-solid fa-envelope text-xs"></i>
+                                </div>
+                                <span class="break-all font-medium">ributnurdiansyah2025@gmail.com</span>
+                            </div>
+
+                            <div class="flex items-center gap-3 text-gray-200">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-accent-yellow flex items-center justify-center shrink-0 border border-amber-500/40">
+                                    <i class="fa-solid fa-location-dot text-xs"></i>
+                                </div>
+                                <span class="font-medium">Tangerang, Banten</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-700/60 my-4">
+
+                    <!-- SERTIFIKASI & PELATIHAN -->
+                    <div class="space-y-4 page-break-inside-avoid">
+                        <div class="section-pill-left">
+                            <span class="icon-circle-left"><i class="fa-solid fa-award"></i></span>
+                            <span class="font-bold text-xs tracking-wider uppercase">SERTIFIKASI & PELATIHAN</span>
+                        </div>
+
+                        <div class="relative pl-6 space-y-4 text-xs">
+                            <div class="timeline-line"></div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Internal Auditor ISO 9001:2015</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">PT. Sinwa Perdana Mandiri</p>
+                                <p class="text-gray-400 text-[10px]">Juni 2023</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Integrated ISO 9001, 14001, 45001 (QHSE)</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">Expert Club Indonesia (ECI)</p>
+                                <p class="text-gray-400 text-[10px]">Mei 2023</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">5R Principles</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">PT. Sinwa Perdana Mandiri</p>
+                                <p class="text-gray-400 text-[10px]">2023</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Mulai Langkahmu sebagai Back-End Engineer</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">Dicoding × Indosat Ooredoo Hutchison</p>
+                                <p class="text-gray-400 text-[10px]">Juli 2022</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Software Architecture 101</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">Dicoding × IDCamp</p>
+                                <p class="text-gray-400 text-[10px]">September 2022</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-700/60 my-4">
+
+                    <!-- PENDIDIKAN -->
+                    <div class="space-y-4 page-break-inside-avoid">
+                        <div class="section-pill-left">
+                            <span class="icon-circle-left"><i class="fa-solid fa-graduation-cap"></i></span>
+                            <span class="font-bold text-xs tracking-wider uppercase">PENDIDIKAN</span>
+                        </div>
+
+                        <div class="relative pl-6 space-y-4 text-xs">
+                            <div class="timeline-line"></div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Bachelor of Business Administration</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">Jakarta Institute of Management Studies (JIMS)</p>
+                                <p class="text-gray-400 text-[10px]">1997 – 1999 • GPA 3.15/4.00</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">Diploma III – Teknologi Bahan Kulit, Karet & Plastik</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">Akademi Teknologi Kulit, Yogyakarta</p>
+                                <p class="text-gray-400 text-[10px]">1994 – 1997 • Predikat Sangat Memuaskan • Lulus Tercepat</p>
+                            </div>
+
+                            <div class="relative pl-2">
+                                <div class="timeline-dot absolute -left-[23px] top-1"></div>
+                                <h4 class="font-bold text-white text-xs">SMA – Fisika</h4>
+                                <p class="text-amber-400 font-medium text-[11px]">SMAN 1 Singkawang</p>
+                                <p class="text-gray-400 text-[10px]">1991 – 1994 • Lulus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-700/60 my-4">
+
+                    <!-- KEAHLIAN TEKNIS -->
+                    <div class="space-y-4 page-break-inside-avoid">
+                        <div class="section-pill-left">
+                            <span class="icon-circle-left"><i class="fa-solid fa-gears"></i></span>
+                            <span class="font-bold text-xs tracking-wider uppercase">KEAHLIAN TEKNIS</span>
+                        </div>
+
+                        <div class="space-y-3 text-xs pr-2">
+                            <div>
+                                <p class="text-amber-400 font-semibold text-[11px] mb-1">PPIC & Operations:</p>
+                                <p class="text-gray-300 text-[11px] leading-relaxed">
+                                    Production Planning • Capacity Planning • BOM & Routing • Material Requirement Planning • Inventory Control • Warehouse Management • FIFO & Location Management • Cycle Counting • Barcode/QR Systems
+                                </p>
+                            </div>
+                            <div>
+                                <p class="text-amber-400 font-semibold text-[11px] mb-1">Automation & Development:</p>
+                                <p class="text-gray-300 text-[11px] leading-relaxed">
+                                    PHP Native • Node.JS • MySQL • SQLite • JavaScript • HTML/CSS • Bootstrap • Git • ERP Custom Modules • Process Automation
+                                </p>
+                            </div>
+                            <div>
+                                <p class="text-amber-400 font-semibold text-[11px] mb-1">Tools & Standards:</p>
+                                <p class="text-gray-300 text-[11px] leading-relaxed">
+                                    SAP • MS Office (Excel Advanced) • ISO 9001:2015 • QHSE Awareness • 5R Principles • Document Control
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-700/60 my-4">
+
+                    <!-- BAHASA -->
+                    <div class="space-y-3 page-break-inside-avoid">
+                        <div class="section-pill-left">
+                            <span class="icon-circle-left"><i class="fa-solid fa-language"></i></span>
+                            <span class="font-bold text-xs tracking-wider uppercase">BAHASA</span>
+                        </div>
+
+                        <div class="space-y-1.5 text-xs pl-1">
+                            <p class="text-gray-200"><strong class="text-amber-400">Bahasa Indonesia:</strong> Native</p>
+                            <p class="text-gray-200"><strong class="text-amber-400">English:</strong> Intermediate</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Sidebar Bottom Banner Accent -->
+            <div class="w-full h-3 bg-amber-500 mt-8"></div>
+        </aside>
+
+        <!-- ================= RIGHT MAIN CONTENT ================= -->
+        <main class="w-full md:w-[64%] bg-white p-6 sm:p-8 flex flex-col justify-between">
+            
+            <div class="space-y-7">
+
+                <!-- MAIN HEADER: NAME & TITLE -->
+                <div class="bg-gray-100/80 -mx-6 sm:-mx-8 -mt-6 sm:-mt-8 p-6 sm:p-8 border-b border-gray-200">
+                    <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight uppercase">
+                        RIBUT NURDIANSYAH
+                    </h1>
+                    <p class="text-amber-600 font-bold text-xs sm:text-sm mt-1 tracking-wide">
+                        PPIC, Warehouse & Logistik Manager | PPIC, Warehouse, logistik dan Process Automation Specialist
+                    </p>
+                </div>
+
+                <!-- PROFIL EKSEKUTIF -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-user-tie"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">PROFIL EKSEKUTIF</h2>
+                    </div>
+                    <p class="text-gray-700 text-xs sm:text-[13px] leading-relaxed pl-1 text-justify">
+                        Profesional manufaktur dengan 25+ tahun pengalaman, termasuk 20+ tahun di posisi Manager PPIC. Terbukti berhasil mentransformasi operasi gudang dan perencanaan produksi dari sistem manual menjadi terotomatisasi berbasis PHP, Node.js & MySQL. Meningkatkan akurasi pengiriman hingga 90%+ dan menaikkan volume order dari 8 juta menjadi 61 juta unit/bulan. Kombinasi langka antara keahlian operasional PPIC dan kemampuan pengembangan sistem internal.
+                    </p>
+                </section>
+
+                <!-- PENGALAMAN KERJA -->
+                <section class="space-y-5 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-briefcase"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">PENGALAMAN KERJA</h2>
+                    </div>
+
+                    <div class="relative pl-6 space-y-6 text-xs sm:text-xs">
+                        <div class="absolute left-[6px] top-2 bottom-2 w-[2px] bg-amber-400"></div>
+
+                        <!-- Job 1 -->
+                        <div class="relative space-y-1.5">
+                            <div class="timeline-dot-right absolute -left-[23px] top-1"></div>
+                            <div class="flex flex-wrap items-baseline justify-between gap-1">
+                                <h3 class="font-bold text-sm text-gray-900">PPIC, Warehouse & Logistik Manager</h3>
+                                <span class="text-amber-600 font-bold text-[11px] bg-amber-50 px-2 py-0.5 rounded border border-amber-200">Juni 2024 – Sekarang</span>
+                            </div>
+                            <p class="font-semibold text-gray-700 text-xs">PT. Sinwa Perdana Mandiri — Tangerang</p><br>
+                            <div class="pt-1">
+                                <p class="font-semibold text-gray-800 mb-1">Pencapaian Utama:</p>
+                                <ul class="list-disc list-outside pl-4 space-y-1 text-gray-600 leading-relaxed text-xs">
+                                    <li><strong class="text-gray-800">Transformasi Gudang:</strong> Mengubah sistem gudang dari manual menjadi terotomatisasi penuh dengan implementasi FIFO, location management, dan barcode/QR.</li>
+                                    <li><strong class="text-gray-800">Pertumbuhan Order:</strong> Meningkatkan volume order dari ±8 juta menjadi 61 juta unit/bulan (kenaikan ~660%) melalui perencanaan kapasitas yang lebih baik.</li>
+                                    <li><strong class="text-gray-800">Akurasi Pengiriman:</strong> Mencapai on-time delivery 90%+ dengan sistem notifikasi dini.</li>
+                                    <li><strong class="text-gray-800">Automation Development:</strong> Merancang & mengembangkan aplikasi PPIC & Warehouse berbasis node.js secara mandiri, mencakup monitoring produksi real-time, scheduling otomatis, inventory control, dan reporting manajemen.</li>
+                                    <li><strong class="text-gray-800">Promosi:</strong> Dipromosikan dari Kepala PPIC dan Kontrol Gudang menjadi Manager PPIC, Gudang dan Logistik (SK Direktur, Juli 2024).</li>
+                                    <li><strong class="text-gray-800">Reporting:</strong> Bertanggung jawab langsung kepada Factory Manager.</li>
+                                </ul>
+                            </div><br>
+
+                            <div class="flex flex-wrap items-baseline justify-between gap-1">
+                                <h3 class="font-bold text-sm text-gray-900">Kepala PPIC</h3>
+                                <span class="text-amber-600 font-bold text-[11px] bg-amber-50 px-2 py-0.5 rounded border border-amber-200">Juni 2020 – Juni 2024</span>
+                            </div>
+                            <p class="font-semibold text-gray-700 text-xs">PT. Sinwa Perdana Mandiri — Tangerang</p>
+                            
+                        </div>
+
+                        <!-- Job 2 -->
+                        <div class="relative space-y-1.5 pt-2">
+                            <div class="timeline-dot-right absolute -left-[23px] top-3"></div>
+                            <div class="flex flex-wrap items-baseline justify-between gap-1">
+                                <h3 class="font-bold text-sm text-gray-900">PPIC Manager/ Production Planning</h3>
+                                <span class="text-amber-600 font-bold text-[11px] bg-amber-50 px-2 py-0.5 rounded border border-amber-200">2005 – 2020</span>
+                            </div>
+                            <p class="font-semibold text-gray-700 text-xs">PT. Poly Unggul Industry — Tangerang</p>
+                            
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-gray-600 leading-relaxed text-xs pt-1">
+                                <li>Mengelola perencanaan produksi, inventory control, dan koordinasi dengan customer besar selama 20 tahun.</li>
+                                <li>Membangun fondasi keahlian PPIC: BOM, routing, capacity planning, material requirement.</li>
+                                <li>Menjadi penghubung antara tim produksi, gudang, dan customer.</li>
+                                <li>Berkontribusi pada transisi bertahap dari proses manual ke sistem terkomputerisasi.</li>
+                            </ul><BR>
+                            <div class="flex flex-wrap items-baseline justify-between gap-1">
+                                <h3 class="font-bold text-sm text-gray-900">PPIC Supervisor/ Production Planning</h3>
+                                <span class="text-amber-600 font-bold text-[11px] bg-amber-50 px-2 py-0.5 rounded border border-amber-200">2000 – 2005</span>
+                            </div>
+                            <p class="font-semibold text-gray-700 text-xs">PT. Poly Unggul Industry — Tangerang</p><br>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- PENCAPAIAN UTAMA -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-trophy"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">PENCAPAIAN UTAMA</h2>
+                    </div>
+
+                    <div class="overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+                        <table class="w-full text-left text-xs border-collapse">
+                            <thead>
+                                <tr class="bg-gray-100 text-gray-800 font-bold border-b border-gray-200">
+                                    <th class="py-2 px-3 border-r border-gray-200 w-1/2">Pencapaian</th>
+                                    <th class="py-2 px-3">Hasil</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 text-gray-700">
+                                <tr class="hover:bg-amber-50/50">
+                                    <td class="py-2 px-3 font-medium border-r border-gray-200">Order Growth</td>
+                                    <td class="py-2 px-3 text-amber-700 font-semibold">Dari ±8 juta → 61 juta unit/bulan</td>
+                                </tr>
+                                <tr class="hover:bg-amber-50/50">
+                                    <td class="py-2 px-3 font-medium border-r border-gray-200">Delivery Accuracy</td>
+                                    <td class="py-2 px-3 text-amber-700 font-semibold">90%+ On-Time Delivery</td>
+                                </tr>
+                                <tr class="hover:bg-amber-50/50">
+                                    <td class="py-2 px-3 font-medium border-r border-gray-200">Warehouse Transformation</td>
+                                    <td class="py-2 px-3">Dari manual → sistem otomatis terintegrasi</td>
+                                </tr>
+                                <tr class="hover:bg-amber-50/50">
+                                    <td class="py-2 px-3 font-medium border-r border-gray-200">Process Automation</td>
+                                    <td class="py-2 px-3">Aplikasi PPIC & Produksi berbasis PHP</td>
+                                </tr>
+                                <tr class="hover:bg-amber-50/50">
+                                    <td class="py-2 px-3 font-medium border-r border-gray-200">Promotion</td>
+                                    <td class="py-2 px-3">Kepala PPIC dan Kontrol Gudang menjadi Manager PPIC, Gudang dan Logistik (Juli 2024)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- KOMPETENSI INTI -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-sliders"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">KOMPETENSI INTI</h2>
+                    </div>
+
+                    <ul class="space-y-1.5 text-xs text-gray-700 pl-1">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Production Planning & Control</strong> — Penjadwalan produksi, BOM, routing, capacity planning.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Inventory & Warehouse Management</strong> — FIFO, location management, stock accuracy, barcode/QR.(SAP Sistem)</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Logistics & Distribution Management</strong> Perencanaan pengiriman, koordinasi transport, inbound/outbound logistics, delivery control, dan distribusi barang jadi.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Process Automation & ERP Development</strong> — PHP, Node.JS, MySQL, custom erp modules.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Business Process Improvement</strong> — Identifikasi bottleneck, redesign workflow, 5R.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Cross-Functional Leadership</strong> — Koordinasi Production, Warehouse, Delivery, Marketing.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-500 text-xs mt-0.5 shrink-0"></i>
+                            <span><strong class="text-gray-900">Quality & Compliance</strong> — ISO 9001:2015 Internal Auditor, QHSE, document control.</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- MINAT & FOKUS PENGEMBANGAN -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-lightbulb"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">MINAT & FOKUS PENGEMBANGAN</h2>
+                    </div>
+
+                    <ul class="list-disc list-outside pl-5 space-y-1 text-xs text-gray-700 leading-relaxed">
+                        <li>Otomatisasi proses bisnis dan workflow digital</li>
+                        <li>Pengembangan sistem Control Cepat Real time ERP / WMS berbasis web (PHP, Node.JS + MySQL)</li>
+                        <li>Integrasi AI untuk forecasting & decision support</li>
+                        <li>Continuous improvement di lingkungan manufaktur</li>
+                        <li>Leadership & knowledge sharing di bidang PPIC</li>
+                    </ul>
+                </section>
+
+                <!-- KEKUATAN UTAMA -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-star"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">KEKUATAN UTAMA</h2>
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-2 text-xs text-gray-700">
+                        <div class="p-2.5 bg-gray-50 rounded-lg border border-gray-200/80">
+                            <strong class="text-amber-700 font-bold">Komunikasi</strong> — Menjembatani kebutuhan operasional dengan solusi teknis.
+                        </div>
+                        <div class="p-2.5 bg-gray-50 rounded-lg border border-gray-200/80">
+                            <strong class="text-amber-700 font-bold">Problem Solving</strong> — Cepat mengidentifikasi akar masalah dan solusi praktis.
+                        </div>
+                        <div class="p-2.5 bg-gray-50 rounded-lg border border-gray-200/80">
+                            <strong class="text-amber-700 font-bold">Otomatisasi Proses</strong> — Passion mengubah proses manual menjadi sistem digital.
+                        </div>
+                        <div class="p-2.5 bg-gray-50 rounded-lg border border-gray-200/80">
+                            <strong class="text-amber-700 font-bold">Adaptabilitas</strong> — Nyaman bekerja di pabrik, kantor, maupun lapangan.
+                        </div>
+                        <div class="p-2.5 bg-gray-50 rounded-lg border border-gray-200/80">
+                            <strong class="text-amber-700 font-bold">Hasil-Oriented</strong> — Fokus pada measurable improvement.
+                        </div>
+                    </div>
+                </section>
+
+                <!-- INFORMASI TAMBAHAN -->
+                <section class="space-y-3 page-break-inside-avoid">
+                    <div class="section-pill-right">
+                        <span class="icon-circle"><i class="fa-solid fa-circle-info"></i></span>
+                        <h2 class="font-bold text-xs sm:text-sm text-gray-800 uppercase tracking-wider">INFORMASI TAMBAHAN</h2>
+                    </div>
+
+                    <ul class="list-disc list-outside pl-5 space-y-1 text-xs text-gray-700 leading-relaxed">
+                        <li>Mampu membuat aplikasi untuk control PPIC dengan cepat dan akurat.</li>
+			            <li>contoh aplikasi untuk Control Progress PPIC dan koordinasi dengan Departement terkait : <a href="https://bitly.cx/ppiccontrol"><strong>https://bitly.cx/ppiccontrol</strong></a> dapat dilihat di website</li> 
+                        <li>Notice period: ±1 bulan, kecuali mendesak bisa dibicarakan.</li>
+                        
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- Bottom decorative accent -->
+            <div class="pt-6 border-t border-gray-200 mt-8 flex items-center justify-between text-[10px] text-gray-400">
+                <span>Curriculum Vitae — Ribut Nurdiansyah</span>
+                <span>Halaman Resmi / Official Document</span>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
